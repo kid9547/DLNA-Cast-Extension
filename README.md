@@ -12,7 +12,7 @@
 
 ## 安装方法
 
-### 方法一：从Chrome网上应用店安装（推荐）
+### 方法一：从Chrome网上应用店安装（不推荐，因为还没有0.0）
 
 1. 打开Chrome网上应用店
 2. 搜索"DLNA投屏"
@@ -63,7 +63,7 @@
 
 1. 克隆项目：
 ```bash
-git clone [项目地址]
+git clone https://github.com/kid9547/DLNA-Cast-Extension
 ```
 
 2. 安装依赖：
