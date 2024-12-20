@@ -1,0 +1,19 @@
+{
+  "name": "chrome-dlna-cast",
+  "version": "1.0.0",
+  "description": "Chrome浏览器DLNA投屏扩展",
+  "scripts": {
+    "build": "node build.js",
+    "clean": "rimraf dist",
+    "package": "npm run clean && npm run build"
+  },
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "rimraf": "^3.0.2"
+  },
+  "devDependencies": {
+    "fs-extra": "^10.1.0"
+  },
+  "author": "",
+  "license": "MIT"
+} 

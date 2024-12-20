@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>视频投屏</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div class="container">
+        <h2>视频投屏</h2>
+        <div id="videoInfo" class="section">
+            <h3>当前视频</h3>
+            <div id="currentVideo">未检测到视频</div>
+        </div>
+        <div id="deviceList" class="section">
+            <h3>设备列表</h3>
+            <div class="manual-input">
+                <input type="text" id="deviceIP" placeholder="输入设备IP地址（如: 192.168.1.100）">
+                <button id="addDevice">添加</button>
+            </div>
+            <div class="device-list-header">
+                <span>已发现的设备</span>
+                <button id="refreshDevices" class="small-button">刷新</button>
+            </div>
+            <div id="devices">
+                <p>正在搜索设备...</p>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="castButton" disabled>开始投屏</button>
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html> 
